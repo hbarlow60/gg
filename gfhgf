@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="site site site">
+    <link rel="stylesheet" href="style.css">
+    <title>MyWebSites</title>
+    <style>
+    .container{
+        margin:auto;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin:auto;
+        }</style>
+</head>
+<body>
+  <header class="container">
+      <nav>
+   <div class="logo">
+       <a href="#">Logo</a>
+   </div>
+   <div class="menü">
+       <ul>
+           <li> <a href="#">Home</a></li>
+           <li> <a href="#">Hakkımda</a></li>
+           <li> <a href="#">Genel</a></li>
+           <li> <a href="#">Bilgiler</a></li>
+    </ul>
+    <a href="Yeni Link"></a>
+   </div>
+</nav>
+
+
+
+
+
+  </header>
+</body>
+</html>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+    margin:0;
+    
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background-image:url(resimler/resim1.jpg)
+    
+    
+}
+.container{
+    margin:auto;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin:auto;
+    }
+
+a{
+    color: whitesmoke;
+}
